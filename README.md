@@ -18,20 +18,21 @@ You can install the required dependencies using pip:
 
 ```bash
 pip install vyper
+```
 
-Usage
+## Usage
 Command-Line Interface (CLI)
 
 You can run the script from the command line with the following syntax:
 
 python vyper_static_analysis.py <vyper_file> [--output <output_file>]
 
-Arguments:
+## Arguments:
 
     <vyper_file>: The path to the Vyper source code file you want to analyze.
     --output <output_file>: (Optional) The path where the analysis results will be saved. Default is output_analysis.json.
 
-Example
+## Example
 
 python vyper_static_analysis.py contracts/MyContract.vy --output analysis_result.json
 
